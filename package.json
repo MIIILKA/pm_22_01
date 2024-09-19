@@ -68,6 +68,7 @@
     "bin-wrapper": "^4.1.0",
     "binary-extensions": "^2.3.0",
     "boolbase": "^1.0.0",
+    "bootstrap": "^5.3.3",
     "brace-expansion": "^1.1.11",
     "braces": "^3.0.3",
     "browser-sync-client": "^2.29.3",
