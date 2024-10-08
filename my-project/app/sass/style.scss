@@ -1,4 +1,6 @@
-$dark: #3a3a3a;
+$dark: #323030;
+$lightdark: #615858;
+
 $white: #ffffff;
 $grey: #E0E0E0;
 $lightgrey: #e8e8e8;
@@ -9,109 +11,108 @@ $rale: "Raleway", sans-serif;
 $font_basic: "Roboto", sans-serif;
 
 * {
-  margin: 0;
+  font-family: $rale;
+}
+.row{
+  margin: 0px;
 }
 body {
   display: flex;
   justify-content: center;
 }
+
 .body {
-  width: 1200px;
-  height: auto;
+  font-family: $rale ;
+  width: 100%;
   margin-top: 50px;
-  box-shadow: 0px 0px 20px 30px $grey;
+  //box-shadow: 0px 0px 20px 30px $grey;
 }
 .header_and_subheader {
-  width: 100%;
-  height: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 .header {
-  width: 90%;
-  height: 100px;
+  height: 150px;
   background: $dark ;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   &_text_first {
-    height: 40%;
-    width: 100%;
+    height: 20%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
   }
   &_text_name, &_text_surname {
+
     font-family: $rale ;
+    font-weight: 800;
     color: $white ;
+    font-size: 60px;
   }
   &_text_surname {
     font-weight: 300;
   }
   &_text_subh {
+    width: 100%;
+    text-align: center;
     font-style: italic;
-    font-weight: 300;
+    font-size: 24px;
+    font-weight: 500;
     color: $orange ;
-    margin-top: -30px;
+    letter-spacing: 3px;
+    //margin-top: 0px;
   }
 }
 .subheader {
-  width: calc(90% - 40px);
-  height: 300px;
+  height: 500px;
   background: $orange ;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   color: white;
-  padding: 20px;
   &_main {
     height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+
     padding-top: 20px;
     &_left {
-      width: 30%;
-      height: 100%;
+      height: 300px;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: flex-end;
       padding: 20px;
+      margin-top: -150px;
       &_contact {
-        width: auto;
         height: 40px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        align-items: center;
         justify-content: space-around;
       }
     }
     &_central_photo {
-      height: 100%;
-      width: 25%;
+      height: 340px;
     }
     &_right {
-      width: 30%;
       height: 100%;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
       padding: 20px;
       &_contact {
-        width: 80%;
         height: 40px;
         display: flex;
         flex-direction: row;
@@ -123,16 +124,16 @@ body {
         margin-top: 20px;
         line-height: 25px;
         font-family: "Raleway", sans-serif;
-        font-weight: 100;
+        font-weight: 200;
         display: block;
-        width: 100%;
         text-align: justify;
+        font-size: 18px;
+
       }
     }
   }
   &_phones_block {
-    height: 65%;
-    width: 100%;
+    height: 15%;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -140,65 +141,63 @@ body {
     align-items: flex-start;
   }
   &_lines {
-    width: 100%;
     height: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-end;
     &_right {
-      width: 100%;
       height: 5px;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       align-items: flex-end;
+
     }
   }
   &_line_white {
-    width: 90%;
     height: 2px;
     background: $white ;
     &_right {
-      width: 90%;
       height: 2px;
       background: $white ;
     }
   }
   &_line_dark {
-    width: 10%;
     height: 5px;
     background: $dark ;
     &_right {
-      width: 10%;
       height: 5px;
       background: $dark ;
+
     }
   }
   &_phones, &_location, &_website {
     width: auto;
-    height: 50px;
-    margin-bottom: 20px;
+    height: 80px;
+    margin-bottom: 30px;
     margin-left: -40px;
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: right;
+
     &_number_block, &_block {
-      width: 170px;
-      height: 40px;
+      width: 200px;
+      height: 50px;
+      margin-right: 10px;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
     }
     &_number, &_p {
-      width: 160px;
+      margin: 0;
+      font-size: 18px;
     }
   }
   &_left_logo_img {
     width: 30px;
     height: 30px;
-    margin-left: 15px;
   }
   &_right_logo_img {
     width: 30px;
@@ -206,35 +205,45 @@ body {
     margin-right: 15px;
   }
   &_central_photo {
-    width: 90%;
-    height: calc(90% - 15px);
+    width: 100%;
+    height: calc(100% - 15px);
     border: 7.5px solid white;
   }
 }
 .subheader_main_left_h, .skills_h {
   font-family: $rale ;
-  font-size: 26px;
+  font-size: 36px;
+  font-weight: 800;
+}
+.subheader_main_left_h{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .phone_icon, .website, .location {
   width: 30px;
   height: 30px;
   margin-left: 5px;
+
 }
 .main4blocks {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 200px 100px 100px 100px 100px 100px 100px 200px;
-  width: 100%;
+  //display: grid;
+  //grid-template-columns: 1fr 1fr;
+  //grid-template-rows: 100px 200px 100px 100px 100px 100px 100px 100px 200px;
+  width: 110%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 .skills {
-  grid-column: 1 ;
-  grid-row: 1 / 3 ;
-  padding: 20px;
+  height: 300px;
+  margin-top: 50px;
   &_main {
     width: 90%;
     height: 100%;
     float: right;
     margin-right: 10px;
+
   }
   &_sub {
     width: 90%;
@@ -271,16 +280,22 @@ body {
     background: $dark ;
   }
   &_diagrams {
-    width: 95%;
-    height: 80%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    height: 70%;
+    display: none;
+
+
     margin-top: 30px;
+    transition: 1s;
+
+    &_diagrams::before{
+      margin-left: -500px ;
+    }
+    &_diagrams::after{
+      margin-left: -0px ;
+    }
     &_blocks {
       width: 45%;
-      height: 30px;
+      height: 60px;
       font-family: $rale ;
     }
     &_text {
@@ -296,12 +311,15 @@ body {
     &_left {
       background: $orange ;
       height: 100%;
+      transition: .2s;
+
     }
     &_right {
       height: 100%;
       background: $lightgrey ;
     }
   }
+
   &1_diagrama_left {
     width: 86%;
   }
@@ -336,43 +354,79 @@ body {
     color: $dark ;
   }
 }
+.arrow {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.hobbies_arrow {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+/* Повертаємо стрілочку при натисканні */
+.expanded {
+  //height: 20px;
+  //width: 20px;
+  transform: rotate(180deg);
+}
+
+.skills_hidden {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .job_experience {
-  grid-column: 2 ;
-  grid-row: 1/7 ;
+  height: 800px;
   background: $dark ;
-  padding: 20px;
+  padding: 50px;
   &_main {
     height: 100%;
-    width: 90%;
     float: right;
-    margin-right: 30px;
   }
   &_h {
     color: $white ;
     margin-left: 20px;
     font-family: $rale ;
-    font-size: 26px;
+    font-size: 36px;
+    font-weight: 800;
   }
   &_content {
-    width: 100%;
     height: 100%;
     margin-top: 30px;
   }
   &_block {
-    width: 100%;
     height: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     &_left {
-      width: 32%;
       font-family: $rale ;
       color: $white ;
       text-align: right;
       line-height: 25px;
     }
     &_right {
-      width: 62%;
       font-family:$rale  ;
     }
   }
@@ -383,10 +437,13 @@ body {
     color: $white ;
   }
   &_left_year {
+    font-size: 20px;
     color: $orange ;
     font-weight: 700;
   }
   &_left_h, &_left_country {
+    font-size: 22px;
+
     font-style: italic;
   }
   &_left_country {
@@ -396,6 +453,15 @@ body {
     color: $white ;
   }
 }
+
+
+
+
+
+
+
+
+
 .job_line_orange {
   width: 6%;
   height: 5px;
@@ -407,31 +473,37 @@ body {
   background: $white ;
 }
 .education {
-  grid-column: 1 ;
-  grid-row: 3/ 10;
-  background: $orange ;
-  color:  $white;
+  height: 950px;
+  background: $orange;
+  color: $white;
   padding: 20px;
+  margin-top: -450px;
+
   &_main {
     width: 90%;
     height: 100%;
     float: right;
     margin-top: 20px;
     margin-right: 10px;
+
     &_all {
-      height: 47%;
+      height: 50%;
       width: 95%;
     }
+
     &_block {
       width: 100%;
-      height: 40%;
+      height: 50%;
       display: flex;
       flex-direction: column;
       margin-top: 30px;
-      font-family: $rale ;
+      font-family: $rale;
+      font-size: 18px;
+
       &_sub {
         font-weight: 700;
       }
+
       &_p_and_year {
         height: 20px;
         width: 100%;
@@ -439,69 +511,135 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         margin-top: 5px;
+
       }
+
       &_italic {
         width: 50%;
         font-style: italic;
       }
+
       &_year {
         width: 50%;
         text-align: right;
-        color: $dark ;
+        color: $dark;
         font-weight: 800;
+
       }
+
       &_text {
         text-align: justify;
         font-weight: 100;
-        color: $white ;
+        color: $white;
       }
     }
   }
+
   &_line_dark {
     width: 6%;
     height: 5px;
-    background: $dark ;
+    background: $dark;
   }
+
   &_line_white {
     width: 94%;
     height: 2px;
-    background: $white  ;
+    background: $white;
   }
+
   &_h {
-    font-family: $rale  ;
-    font-size: 26px;
-    color: $white ;
+    font-family: $rale;
+    font-size: 36px;
+    font-weight: 800;
+    color: $white;
     margin-left: 10px;
   }
-  &_hobbies {
-    width: 100%;
-    height: 30%;
-  }
 }
+.education_hobbies{
+  width: 100%;
+  height: 30%;
+  margin-top: 70px;
+}
+
+.mt{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: right;
+
+}
+.hobbies {
+
+    &_diagrams{
+      width: 100%;
+      height: 70%;
+      margin-top: 30px;
+      transition: 1s;
+      margin-left: -400px;
+
+        &_blocks{
+          width: 45%;
+        }
+    }
+    &_main{
+        width: 90%;
+        height: 100%;
+        margin-right: 10px;
+      float: left;
+
+    }
+  }
+
 .hobbies_diagrama {
-  height: 9px;
+  height: 10px;
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+
+
   &_left {
-    background: $dark ;
-    height: 100%;
+    animation-duration: 1.5s;
+    background: $dark;
+    animation-name: left-line;
+    animation-delay: 1s;
   }
+
+  @keyframes left-line {
+    from {
+      margin-left: 100%;
+    }
+
+    to {
+      width: 100%;
+
+    }
+
+  }
+
   &_right {
     height: 100%;
-    background: $lightorange ;
+    background: $lightorange;
+
   }
 }
+
 .hobbies1_diagrama_left {
   width: 82%;
+  transition: all 0.3s ease; /* Використання transition для плавного переходу */
+
 }
 .hobbies1_diagrama_right {
   width: 18%;
+  transition: all 0.3s ease; /* Використання transition для плавного переходу */
+
 }
 .hobbies2_diagrama_left {
+  transition: all 0.3s ease; /* Використання transition для плавного переходу */
+
   width: 70%;
 }
 .hobbies2_diagrama_right {
@@ -526,11 +664,9 @@ body {
   width: 28%;
 }
 .reference {
-  grid-column: 2 ;
-  grid-row: 7 ;
+
   color: $dark ;
-  padding: 20px;
-  margin-left: 30px;
+  padding: 50px;
   &_main {
     width: 95%;
   }
@@ -546,7 +682,6 @@ body {
   }
   &_content {
     width: 100%;
-    height: 30%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -554,7 +689,6 @@ body {
     font-family: $rale ;
     margin-bottom: 50px;
     &_block {
-      height: 100px;
       margin-top: 30px;
       display: flex;
       flex-direction: column;
@@ -585,15 +719,13 @@ body {
     justify-content: center;
     align-items: center;
     &_main {
-      width: 80%;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: space-between;
     }
-    
+
     &_left {
-      height: 100%;
       width: 30%;
       font-family: $rale ;
       line-height: 25px;
@@ -602,7 +734,6 @@ body {
     }
     &_linkedin_right {
       width: 60%;
-      height: 100%;
 
     }
     &_p2 {
@@ -619,3 +750,569 @@ body {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+//@media screen and (min-width: 1200px){
+//
+//  .skills{
+//    width: 50%;
+//  }
+//  .job_experience{
+//    height: 850px;
+//
+//    &_main{
+//      width: 100%;
+//    }
+//    &_right_text{
+//      font-size: 15px;
+//    }
+//  }
+//
+//  .education{
+//    //margin-top: -400px;
+//    &_main_block{
+//      margin-top: 50px;
+//    }
+//    &_hobbies{
+//      margin-top: 60px;
+//      margin-left: -50px;
+//    }
+//    &_main{
+//      &_block{
+//        &_text{
+//          font-weight: 400;
+//        }
+//      }
+//    }
+//
+//  }
+//  .reference {
+//    height: 100px;
+//    &_content{
+//      display: flex;
+//      flex-direction: row;
+//      flex-wrap: nowrap;
+//      justify-content: space-between;
+//      &_block{
+//        height: 120px;
+//        line-height: 1px;
+//      }
+//      &_adress{
+//        font-weight: 800;
+//      }
+//    }
+//    &_linkedin{
+//      padding: 40px;
+//      &_p2{
+//        height: 30px;
+//      }
+//      &_left{
+//        height: 100%;
+//
+//      }
+//      &_right{
+//        height: 100%;
+//      }
+//
+//    }
+//
+//    &_main{
+//      height: 200px;
+//    }
+//  }
+//}
+//@media screen and (min-width: 721px) and (max-width: 1200px) {
+//  .body {
+//    width: 100%;
+//  }
+//  .header {
+//    height: 120px;
+//
+//    .header_text_name, .header_text_surname {
+//      font-size: 40px;
+//    }
+//
+//    .header_text_subh {
+//      font-size: 20px;
+//
+//    }
+//  }
+//  .subheader_lines {
+//    width: 100%;
+//    height: 5px;
+//  }
+//  .subheader_line_white {
+//    width: 85%;
+//    background: $white;
+//  }
+//  .subheader_line_dark {
+//    width: 15%;
+//
+//    background: $dark;
+//  }
+//
+//  .subheader {
+//    height: 550px;
+//    display: flex;
+//    flex-direction: column;
+//
+//    &_line_white{
+//      width: 85%;
+//    }
+//    &_line_dark{
+//      width: 15%;
+//    }
+//    &_lines{
+//      width: 100%;
+//    }
+//    &_central_photo {
+//      margin-left: -70px;
+//    }
+//    &_main {
+//      width: 90%;
+//      height: 500px;
+//      display: flex;
+//      justify-content: space-between;
+//
+//
+//      &_left {
+//        width: 50%;
+//        height: 300px;
+//        &_contact{
+//          width: 220px;
+//          display: flex;
+//        }
+//        &_h {
+//        }
+//      }
+//      &_central_photo {
+//        height: 300px;
+//        width: 40%;
+//        border-radius: 10%;
+//      }
+//      &_right{
+//        width: 100%;
+//      }
+//    }
+//  }
+//  .skills{
+//    width: 90%;
+//    height: 400px;
+//
+//
+//
+//  }
+//  .job_experience {
+//    height: 900px;
+//    width: 100%;
+//
+//    &_block_left {
+//      width: 30%;
+//    }
+//
+//    &_block_right {
+//      width: 60%;
+//    }
+//  }
+//
+//    .education {
+//      width: 100%;
+//      height: 900px;
+//      display: flex;
+//      flex-direction: row;
+//      margin-top: 00px;
+//
+//      &_hobbies {
+//        width: 100%;
+//        display: flex;
+//        flex-direction: row;
+//        flex-wrap: wrap;
+//      }
+//    }
+//    .reference{
+//      width: 100%;
+//      display: flex;
+//
+//      flex-direction: column;
+//      flex-wrap: wrap;
+//
+//      &_block{
+//        width: 40%;
+//        background: #000;
+//      }
+//    }
+//
+//  }
+//
+//
+//
+//@media screen and (min-width: 500px) and (max-width: 721px) {
+//  .body {
+//    width: 100%;
+//  }
+//  .header {
+//    height: 120px;
+//
+//    .header_text_name, .header_text_surname {
+//      font-size: 40px;
+//    }
+//
+//    .header_text_subh {
+//      font-size: 20px;
+//
+//    }
+//  }
+//  .subheader_lines {
+//    width: 100%;
+//    height: 5px;
+//  }
+//  .subheader_line_white {
+//    width: 85%;
+//    background: $white;
+//  }
+//  .subheader_line_dark {
+//    width: 15%;
+//
+//    background: $dark;
+//  }
+//
+//  .subheader {
+//    height: 600px;
+//    display: flex;
+//    flex-direction: column;
+//
+//    &_line_white{
+//      width: 85%;
+//    }
+//    &_line_dark{
+//      width: 15%;
+//    }
+//    &_lines{
+//      width: 100%;
+//    }
+//    &_central_photo {
+//      margin-left: 0px;
+//    }
+//    &_main {
+//      width: 90%;
+//      height: 700px;
+//      display: flex;
+//      justify-content: space-between;
+//
+//
+//      &_left {
+//        width: 50%;
+//        height: 300px;
+//        &_contact{
+//          width: 220px;
+//          display: flex;
+//        }
+//        &_h {
+//        }
+//      }
+//      &_central_photo {
+//        height: 300px;
+//        width: 40%;
+//        border-radius: 10%;
+//      }
+//      &_right{
+//        width: 100%;
+//      }
+//    }
+//  }
+//  .skills{
+//    width: 90%;
+//    height: 400px;
+//
+//
+//
+//  }
+//  .job_experience {
+//    height: 900px;
+//    width: 100%;
+//
+//    &_right{
+//      &_text{
+//        font-size: 13px;
+//      }
+//    }
+//    &_h{
+//      font-size: 30px;
+//    }
+//    &_block_left {
+//      width: 30%;
+//    }
+//
+//    &_block_right {
+//      width: 60%;
+//    }
+//  }
+//
+//  .education {
+//    width: 100%;
+//    height: 1000px;
+//    display: flex;
+//    flex-direction: row;
+//    margin-top: 00px;
+//
+//    &_main{
+//      height: 1200px;
+//    }
+//    &_hobbies {
+//      height: 20%;
+//      width: 100%;
+//      display: flex;
+//      flex-direction: row;
+//      flex-wrap: wrap;
+//    }
+//  }
+//  .reference{
+//    width: 100%;
+//    display: flex;
+//
+//    flex-direction: column;
+//    flex-wrap: wrap;
+//
+//    &_linkedin{
+//      width: 100%;
+//      padding: 40px;
+//      display: flex;
+//      align-items: center;
+//      flex-direction: row;
+//
+//      &_right{
+//        font-size: 14px;
+//      }
+//      &_left{
+//        font-size: 14px;
+//      }
+//    }
+//    &_block{
+//      width: 40%;
+//      background: #000;
+//    }
+//  }
+//
+//}
+//@media screen and (max-width: 499px) {
+//  .body {
+//    width: 100%;
+//  }
+//  .header {
+//    height: 80px;
+//
+//    .header_text_name, .header_text_surname {
+//      font-size: 30px;
+//    }
+//
+//    .header_text_subh {
+//      font-size: 15px;
+//
+//    }
+//  }
+//  .subheader_lines {
+//    width: 100%;
+//    height: 5px;
+//  }
+//  .subheader_line_white {
+//    width: 85%;
+//    background: $white;
+//  }
+//  .subheader_line_dark {
+//    width: 15%;
+//
+//    background: $dark;
+//  }
+//
+//  .subheader {
+//    height: 950px;
+//    display: flex;
+//    flex-direction: column;
+//
+//    &_line_white{
+//      width: 85%;
+//    }
+//    &_line_dark{
+//      width: 15%;
+//    }
+//    &_lines{
+//      width: 100%;
+//    }
+//    &_central_photo {
+//      margin-left: 0px;
+//    }
+//    &_main {
+//      width: 96%;
+//      display: flex;
+//      justify-content: space-between;
+//      flex-wrap: wrap;
+//
+//
+//      &_left {
+//        width: 100%;
+//        height: 300px;
+//        margin-bottom: 20px;
+//        &_contact{
+//          width: 220px;
+//          display: flex;
+//        }
+//        &_h {
+//        }
+//      }
+//      &_central_photo {
+//        height: 260px;
+//        width: 70%;
+//        margin: 0 auto;
+//      }
+//      &_right{
+//        width: 100%;
+//      }
+//    }
+//  }
+//  .skills{
+//    width: 90%;
+//    height: 400px;
+//
+//
+//
+//  }
+//  .job_experience {
+//    height: 1100px;
+//    width: 100%;
+//    padding: 20px;
+//    &_left_year{
+//      width: 150px;
+//      margin-left: -30px;
+//    }
+//    &_h{
+//      font-size: 26px;
+//    }
+//    &_right_text{
+//      margin-bottom: 100px;    }
+//    &_block_left {
+//      width: 30%;
+//      font-size: 12px;
+//
+//    }
+//
+//    &_block_right {
+//      width: 60%;
+//      font-size: 14px;
+//    }
+//  }
+//
+//  .education {
+//    width: 100%;
+//    height: 1200px;
+//    display: flex;
+//    flex-direction: row;
+//    margin-top: 00px;
+//    &_main{
+//      height: 1200px;
+//    &_block{
+//      height: 300px;
+//      &_italic{
+//        width: 100%;
+//
+//      }
+//      &_year{
+//        width: 100%;
+//        height: 30px;
+//        text-align: left;
+//      }
+//      &_text{
+//        height: 200px;
+//        margin-top: 30px;
+//      }
+//    }
+//    }
+//    &_main_all{
+//      width: 100%;
+//      height: 700px;
+//    }
+//    &_hobbies {
+//      width: 100%;
+//      display: flex;
+//      flex-direction: row;
+//      flex-wrap: wrap;
+//    }
+//  }
+//  .reference{
+//    width: 100%;
+//    display: flex;
+//    flex-direction: column;
+//    flex-wrap: wrap;
+//    &_main{
+//      width: 10px;
+//    }
+//
+//    &_content{
+//      width: 100%;
+//      display: flex;
+//      flex-direction: row;
+//      flex-wrap: wrap;
+//
+//      &_block{
+//        width: 100%;
+//      }
+//    }
+//    &_main{
+//      width: 100%;
+//    }
+//
+//    &_linkedin{
+//      width: 100%;
+//      height: 130px;
+//
+//
+//      &_main{
+//        width: 90%;
+//        display: flex;
+//        flex-direction: row;
+//        flex-wrap: wrap;
+//
+//      }
+//      &_left{
+//        width: 100%;
+//        font-size: 16px;
+//
+//      }
+//      &_right{
+//        width: 100%;
+//        height: 20px;
+//        font-size: 16px;
+//
+//      }
+//      &_a{
+//        font-size: 14px;
+//      }
+//    }
+//  }
+//
+//}
+
+
+
+
+
+
+//ANIMATION
+
+//.hobbies_diagrama_left::before{
+//  background: $lightdark;
+//  transition: .1s;
+//  height: 12px;
+//}
+//.hobbies_diagrama_left::after{
+//  background: green;
+//  transition: .1s;
+//  height: 12px;
+//}

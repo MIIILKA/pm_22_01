@@ -42,8 +42,8 @@ function scripts() {
 }
 
 // Compress img
-function imgs() {
-    return gulp.src("./my-project/app/img/*.{jpg,jpeg,png,gif}", {encoding:false})
+function imageTask() {
+    return gulp.src('./my-project/app/img/**/*', { encoding: false} )
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{ removeViewBox: false }],
@@ -67,20 +67,21 @@ function browserSyncInit(done) {
 // Watch for changes in files
 function watchFiles() {
     gulp.watch("my-project/app/*.html", html);
-    gulp.watch("my-project/app/sass/*.scss", sassTask); // Стежимо за .scss файлами, а не за .css
+    gulp.watch('my-project/app/img/**/*', imageTask);
+
+    gulp.watch('my-project/app/sass/*.scss', sassTask); // Стежимо за .scss файлами, а не за .css
     gulp.watch("my-project/app/js/*.js", scripts);
-    gulp.watch("my-project/app/img/*.{jpg,jpeg,png,gif}", imgs);
 }
 
 
 exports.html = html;
 exports.sass = sassTask;
 exports.scripts = scripts;
-exports.imgs = imgs;
+exports.imageTask = imageTask;
 exports.watch = gulp.parallel(watchFiles, browserSyncInit);
 
 // Default task to run BrowserSync and watch for changes
 exports.default = gulp.series(
-    gulp.parallel(html, sassTask, scripts, imgs),
+    gulp.parallel(html, sassTask, imageTask, scripts),
     gulp.parallel(watchFiles, browserSyncInit)
 );
