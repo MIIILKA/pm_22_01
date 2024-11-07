@@ -61,7 +61,7 @@ body {
     width: 100%;
     text-align: center;
     font-style: italic;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     color: $orange ;
     letter-spacing: 3px;
@@ -69,7 +69,7 @@ body {
   }
 }
 .subheader {
-  height: 500px;
+  height: 450px;
   background: $orange ;
   display: flex;
   flex-wrap: nowrap;
@@ -85,20 +85,22 @@ body {
 
     padding-top: 20px;
     &_left {
-      height: 300px;
+      height: 100%;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       justify-content: center;
       align-items: flex-end;
       padding: 20px;
-      margin-top: -150px;
+      margin-top: -200px;
       &_contact {
         height: 40px;
         display: flex;
         flex-direction: row;
+
         flex-wrap: nowrap;
         justify-content: space-around;
+        margin-right: 16px;
       }
     }
     &_central_photo {
@@ -112,6 +114,10 @@ body {
       justify-content: center;
       align-items: center;
       padding: 20px;
+      margin-top: -92px;
+      &_h{
+        height: 100%;
+      }
       &_contact {
         height: 40px;
         display: flex;
@@ -119,21 +125,22 @@ body {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: left;
+        margin-left: 5px;
+        margin-top: -20px;
       }
       &_block_p {
-        margin-top: 20px;
-        line-height: 25px;
+        line-height: 37px;
         font-family: "Raleway", sans-serif;
-        font-weight: 200;
+        font-weight: 400;
         display: block;
         text-align: justify;
-        font-size: 18px;
-
+        font-size: 21px;
+        height: 200px;
+        margin-bottom: -50px;
       }
     }
   }
   &_phones_block {
-    height: 15%;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -141,13 +148,14 @@ body {
     align-items: flex-start;
   }
   &_lines {
-    height: 5px;
+    height: 7px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-end;
+
     &_right {
-      height: 5px;
+      height: 7px;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
@@ -155,36 +163,41 @@ body {
 
     }
   }
+  // білі лінії
   &_line_white {
     height: 2px;
-    background: $white ;
+    background: white ;
+    width: 88%;
+
     &_right {
-      height: 2px;
-      background: $white ;
+      height: 3px;
+      background: white ;
+      width: 88%;
     }
   }
   &_line_dark {
-    height: 5px;
+    height: 7px;
     background: $dark ;
+    width: 12%;
+
     &_right {
-      height: 5px;
+      height: 7px;
       background: $dark ;
+      width: 12%;
 
     }
   }
   &_phones, &_location, &_website {
-    width: auto;
-    height: 80px;
     margin-bottom: 30px;
-    margin-left: -40px;
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: right;
+    margin-left: -40px;
 
     &_number_block, &_block {
-      width: 200px;
-      height: 50px;
+      width: 270px;
+      height: 70px;
       margin-right: 10px;
       display: flex;
       flex-direction: column;
@@ -192,37 +205,43 @@ body {
     }
     &_number, &_p {
       margin: 0;
-      font-size: 18px;
+      font-size: 23px;
     }
   }
   &_left_logo_img {
     width: 30px;
     height: 30px;
+    margin-left: 20px;
+
   }
   &_right_logo_img {
     width: 30px;
     height: 30px;
     margin-right: 15px;
+    margin-top: -10px;
   }
   &_central_photo {
     width: 100%;
-    height: calc(100% - 15px);
-    border: 7.5px solid white;
+    height: 100%;
+    border: 13px solid white;
   }
 }
+
 .subheader_main_left_h, .skills_h {
   font-family: $rale ;
   font-size: 36px;
   font-weight: 800;
 }
 .subheader_main_left_h{
+  width: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 .phone_icon, .website, .location {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   margin-left: 5px;
 
 }
@@ -236,15 +255,16 @@ body {
   flex-wrap: nowrap;
 }
 .skills {
-  height: 300px;
   margin-top: 50px;
-  &_main {
-    width: 90%;
-    height: 100%;
-    float: right;
-    margin-right: 10px;
 
+
+  &_main {
+    width: 88%;
+    height: 300px;
+    margin-right: 18px;
+    float: right;
   }
+
   &_sub {
     width: 90%;
     height: 40px;
@@ -254,132 +274,132 @@ body {
     align-items: center;
     margin-left: 4px;
   }
+
   &_img {
-    height: 20px;
-    width: 20px;
+    height: 35px;
+    width: 35px;
+    margin-top: -10px;
+    margin-left: 4px;
   }
+
   &_h {
     margin-left: 10px;
+    color: $dark;
   }
+
   &_lines {
-    width: 100%;
-    height: 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-  }
-  &_line_orange {
-    width: 6%;
-    height: 5px;
-    background: $orange ;
-  }
-  &_line_dark {
-    width: 94%;
-    height: 2px;
-    background: $dark ;
-  }
-  &_diagrams {
-    height: 70%;
-    display: none;
-
-
-    margin-top: 30px;
-    transition: 1s;
-
-    &_diagrams::before{
-      margin-left: -500px ;
-    }
-    &_diagrams::after{
-      margin-left: -0px ;
-    }
-    &_blocks {
-      width: 45%;
-      height: 60px;
-      font-family: $rale ;
-    }
-    &_text {
-      margin-bottom: 5px;
-    }
-  }
-  &_diagrama {
     width: 100%;
     height: 7px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    &_left {
-      background: $orange ;
-      height: 100%;
-      transition: .2s;
+    align-items: flex-end;
+  }
 
+  &_line_orange {
+    width: 8%;
+    height: 7px;
+    background: $orange;
+  }
+
+  &_line_dark {
+    width: 92%;
+    height: 3px;
+    background: $dark;
+  }
+
+  &_diagrams {
+    width: 100%;
+    height: 70%;
+    margin-top: 30px;
+    transition: 1s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &_blocks {
+      width: 45%;
+      margin-bottom: 20px;
     }
+
+    &_text {
+      margin-bottom: 5px;
+      font-weight: 700;
+    }
+  }
+
+  &_diagrama {
+    height: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    &_left {
+      animation-duration: 1.5s;
+      background: $orange;
+      animation-name: left-line;
+      animation-delay: 0.1s;
+    }
+
     &_right {
       height: 100%;
-      background: $lightgrey ;
+      background: $lightgrey;
+    }
+
+    @keyframes left-line {
+      from {
+        margin-left: 100%;
+      }
+      to {
+        width: 100%;
+      }
     }
   }
 
-  &1_diagrama_left {
-    width: 86%;
-  }
-  &1_diagrama_right {
-    width: 13%;
-  }
-  &2_diagrama_left {
-    width: 70%;
-  }
-  &2_diagrama_right {
-    width: 30%;
-  }
-  &3_diagrama_left {
-    width: 61%;
-  }
-  &3_diagrama_right {
-    width: 39%;
-  }
-  &4_diagrama_left {
-    width: 74%;
-  }
-  &4_diagrama_right {
-    width: 26%;
-  }
-  &5_diagrama_left {
-    width: 72%;
-  }
-  &5_diagrama_right {
-    width: 28%;
-  }
-  &_h {
-    color: $dark ;
-  }
+  &1_diagrama_left { width: 86%; }
+  &1_diagrama_right { width: 14%; }
+
+  &2_diagrama_left { width: 70%; }
+  &2_diagrama_right { width: 30%; }
+
+  &3_diagrama_left { width: 61%; }
+  &3_diagrama_right { width: 39%; }
+
+  &4_diagrama_left { width: 74%; }
+  &4_diagrama_right { width: 26%; }
+
+  &5_diagrama_left { width: 72%; }
+  &5_diagrama_right { width: 28%; }
 }
+
+
 .arrow {
   display: inline-block;
   cursor: pointer;
   margin-left: 10px;
-  transition: transform 0.3s ease;
-}
+  transition: transform 0.3s ease; // Анімація повороту стрілки
 
+  &.expanded {
+    transform: rotate(180deg); // Поворот стрілки на 180 градусів
+  }
+}
 .hobbies_arrow {
   display: inline-block;
   cursor: pointer;
   margin-left: 10px;
-  transition: transform 0.3s ease;
-}
-/* Повертаємо стрілочку при натисканні */
-.expanded {
-  //height: 20px;
-  //width: 20px;
-  transform: rotate(180deg);
+  transition: transform 2.3s ease;
 }
 
-.skills_hidden {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
+//.skills_hidden {
+//  display: flex;
+//  flex-direction: row;
+//  flex-wrap: wrap;
+//  justify-content: space-between;
+//  overflow: hidden;
+//  transition: max-height 0.5s ease-in-out;
+//}
 
 
 
@@ -397,7 +417,7 @@ body {
 
 
 .job_experience {
-  height: 800px;
+  height: 850px;
   background: $dark ;
   padding: 50px;
   &_main {
@@ -416,60 +436,111 @@ body {
     margin-top: 30px;
   }
   &_block {
-    height: 30%;
+    max-height: 237px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
     &_left {
       font-family: $rale ;
       color: $white ;
       text-align: right;
       line-height: 25px;
+      height: 10px;
+
+
     }
+
     &_right {
-      font-family:$rale  ;
+      font-family: $rale;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      position: relative;
+      max-height: 300px;
+      margin-bottom: -20px;
     }
   }
   &_right_text {
-    text-align: justify;
-    margin-top: 15px;
-    font-weight: lighter;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, margin 0.5s ease-in-out, padding 0.5s ease-in-out;
+    margin-bottom: 82px;
+    padding: 0;
     color: $white ;
   }
   &_left_year {
     font-size: 20px;
     color: $orange ;
-    font-weight: 700;
+    font-weight: 800;
   }
-  &_left_h, &_left_country {
+  &_left_h{
     font-size: 22px;
+    font-weight: 700;
 
     font-style: italic;
   }
+
   &_left_country {
-    font-weight: 100;
   }
   &_right_h {
-    color: $white ;
+    font-weight: 700;
+    color: $white;
+    display: flex;
+    align-items: center;
   }
+}
+.job_experience_left_country{
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+
+}
+
+.arrow-job {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+.arrow-job.expanded {
+  transform: rotate(180deg); // Поворот стрілки при розгортанні
 }
 
 
 
-
-
+.arrow {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+.arrow.expanded {
+  transform: rotate(180deg); // Поворот стрілки при розгортанні
+}
+//.arrow-job.expanded + .job_experience_right_text {
+//  max-height: 10px;
+//}
 
 
 
 
 .job_line_orange {
-  width: 6%;
-  height: 5px;
+  width: 8%;
+  height: 7px;
   background: $orange ;
 }
 .job_line_white {
-  width: 94%;
-  height: 2px;
+  width: 92%;
+  height: 3px;
   background: $white ;
 }
 .education {
@@ -501,7 +572,7 @@ body {
       font-size: 18px;
 
       &_sub {
-        font-weight: 700;
+        font-weight: 800;
       }
 
       &_p_and_year {
@@ -517,6 +588,7 @@ body {
       }
 
       &_italic {
+        font-weight: 700;
         width: 50%;
         font-style: italic;
       }
@@ -531,21 +603,22 @@ body {
 
       &_text {
         text-align: justify;
-        font-weight: 100;
+        font-weight: 400;
         color: $white;
       }
     }
   }
 
   &_line_dark {
-    width: 6%;
-    height: 5px;
+    width: 8%;
+    height: 7px;
     background: $dark;
   }
 
   &_line_white {
-    width: 94%;
-    height: 2px;
+
+    width: 92%;
+    height: 3px;
     background: $white;
   }
 
@@ -562,7 +635,10 @@ body {
   height: 30%;
   margin-top: 70px;
 }
-
+.job_title_wrapper{
+  display: flex;
+  flex-direction: row;
+}
 .mt{
   display: flex;
   flex-direction: row;
@@ -578,17 +654,20 @@ body {
       height: 70%;
       margin-top: 30px;
       transition: 1s;
-      margin-left: -400px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
 
         &_blocks{
           width: 45%;
         }
     }
     &_main{
-        width: 90%;
+        width: 100%;
         height: 100%;
         margin-right: 10px;
-      float: left;
+        float: left;
 
     }
   }
@@ -605,7 +684,7 @@ body {
     animation-duration: 1.5s;
     background: $dark;
     animation-name: left-line;
-    animation-delay: 1s;
+    animation-delay: 0.1s;
   }
 
   @keyframes left-line {
@@ -663,21 +742,27 @@ body {
 .hobbies5_diagrama_right {
   width: 28%;
 }
-.reference {
 
+
+
+
+
+
+.reference {
   color: $dark ;
   padding: 50px;
+  margin-top: 20px;
   &_main {
     width: 95%;
   }
   &_line_orange {
-    width: 6%;
-    height: 5px;
+    width: 8%;
+    height: 7px;
     background: $orange ;
   }
   &_line_dark {
-    width: 94%;
-    height: 2px;
+    width: 92%;
+    height: 3px;
     background: $dark ;
   }
   &_content {
@@ -697,27 +782,38 @@ body {
     &_h {
       color: $dark ;
       font-weight: 800;
+      height: 20px;
+      font-size: 23px;
     }
     &_adress {
-      font-weight: 700;
+      font-weight: 800;
       color: $orange ;
       font-style: italic;
+      height: 10px;
+      font-size: 17px;
+
     }
     &_number {
       color: $dark ;
+      height: 10px;
+      font-size: 18px;
+
     }
     &_email {
       color: $dark ;
+      height: 10px;
+      font-size: 18px;
+
     }
   }
   &_linkedin {
     background: $dark ;
     width: 100%;
-    height: 100px;
-    margin: 0 auto;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
     &_main {
       display: flex;
       flex-direction: row;
@@ -726,24 +822,34 @@ body {
     }
 
     &_left {
-      width: 30%;
+      height: 50px;
+      width: 10%;
       font-family: $rale ;
       line-height: 25px;
       color: $white;
-
+      font-size: 23px;
+      font-weight: 600;
+      margin-left: -50px;
     }
-    &_linkedin_right {
-      width: 60%;
+    &_right{
+      height: 60px;
+      width: 70%;
 
+      &_p{
+        font-size: 23px;
+        font-weight: 600;
+
+      }
     }
     &_p2 {
       font-family: $rale ;
       line-height: 30px;
       color: $white;
+
     }
     &_a {
       color: $lightgrey ;
-      word-spacing: 10px;
+      line-height: 35px;
       font-style: italic;
       cursor: pointer;
       text-decoration: none;
@@ -753,7 +859,14 @@ body {
 
 
 
-
+.skills_experience_right{
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, margin 0.5s ease-in-out, padding 0.5s ease-in-out;
+  margin-bottom: 100px;
+  padding: 0;
+  color: $white ;
+}
 
 
 
