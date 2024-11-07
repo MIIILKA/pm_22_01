@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad22661b-309f-4fc7-abc9-a445087bd6bf" name="Changes" comment="good 4 lab (HTML+SCSS+JS with animation)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="49e1240cf087d3009c7cb2045bfa9b5c24589edb" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MIIILKA&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MIIILKA/pm_22_01&quot;,
+    &quot;accountId&quot;: &quot;a646bb88-e1e1-4ed1-bf6f-13be53fe9968&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2lxSmJNUNdshfDBahvuAI7xztov" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "54959c8e",
+    "last_opened_file_path": "C:/Users/baliu/OneDrive/Рабочий стол/all/LP NU (II)/web розробка (лаби)/pm_22_01/my-project/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.11\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\app" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist\img" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\app\img" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist\img" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\app" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist\html" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\app\html" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad22661b-309f-4fc7-abc9-a445087bd6bf" name="Changes" comment="" />
+      <created>1726120392565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726120392565</updated>
+      <workItem from="1726120394275" duration="21461000" />
+      <workItem from="1726256186031" duration="36015000" />
+      <workItem from="1726594923598" duration="4326000" />
+      <workItem from="1726724254748" duration="12358000" />
+      <workItem from="1726991256359" duration="104168000" />
+      <workItem from="1728538084379" duration="33643000" />
+      <workItem from="1730116975879" duration="1349000" />
+      <workItem from="1730305758347" duration="242000" />
+      <workItem from="1730306371871" duration="267000" />
+      <workItem from="1730969835295" duration="342000" />
+    </task>
+    <task id="LOCAL-00001" summary="good first lab + header. work on subheader">
+      <option name="closed" value="true" />
+      <created>1726229165508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726229165508</updated>
+    </task>
+    <task id="LOCAL-00002" summary="good first lab + header subheader + work main">
+      <option name="closed" value="true" />
+      <created>1726262987135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726262987135</updated>
+    </task>
+    <task id="LOCAL-00003" summary="IDEAL">
+      <option name="closed" value="true" />
+      <created>1726337316189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726337316189</updated>
+    </task>
+    <task id="LOCAL-00004" summary="scss add">
+      <option name="closed" value="true" />
+      <created>1726733519159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726733519159</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mb norm but subheader poletiv">
+      <option name="closed" value="true" />
+      <created>1728408736148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728408736148</updated>
+    </task>
+    <task id="LOCAL-00006" summary="good 4 lab (HTML+SCSS+JS with animation)">
+      <option name="closed" value="true" />
+      <created>1730970077012</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730970077012</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="good first lab + header. work on subheader" />
+    <MESSAGE value="good first lab + header subheader + work main" />
+    <MESSAGE value="IDEAL" />
+    <MESSAGE value="scss add" />
+    <MESSAGE value="mb norm but subheader poletiv" />
+    <MESSAGE value="good 4 lab (HTML+SCSS+JS with animation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="good 4 lab (HTML+SCSS+JS with animation)" />
+  </component>
+</project>
