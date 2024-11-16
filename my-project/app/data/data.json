@@ -1,0 +1,93 @@
+{
+  "header": {
+    "name": "ROBERT L.",
+    "surname": "ALVAREZ",
+    "title": "GRAPHIC & WEB-DESIGNER"
+  },
+  "subheader": {
+    "nasme": "CONTACT"
+  },
+  "subheaderleft": {
+    "phone1": "+1-718-310-5588",
+    "phone2": "+1-313-381-8167",
+    "link": "www.yourwebsite.com",
+    "email": "yourinfo@email.com",
+    "place1": "769 Prudence Street",
+    "place2": "Linkoln park, MI 48146"
+  },
+  "subheaderright": {
+    "hoes": "ABOUT US",
+    "lorem": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum ducimus earum eos eum laudantium magni necessitatibus neque nesciunt numquam obcaecati quaerat qui, rerum vero! Deleniti neque perspiciatis suscipit.\n"
+  },
+  "skills": {
+    "h3": "SKILLS",
+    "text1": "Adobe Photoshop",
+    "text2": "Microsoft Powerpoint",
+    "text3":  "Adobe Illustrator",
+    "text4": "HTML-5/CSS-3",
+    "text5":  "Microsoft Word"
+  },
+  "job_experience": {
+    "jh3": "JOB EXPERIENCE",
+    "job_experience_left11": "Creative Agency",
+    "job_experience_left12":"Chicago",
+    "job_experience_left13": "2020 - Present",
+    "job_experience_right_h1": "SENIOR WEB DESIGNER",
+    "job_experience_lorem1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum ducimus earum eos eum laudantium magni necessitatibus neque nesciunt numquam obcaecati quaerat qui, rerum vero! Deleniti neque perspiciatis suscipit.",
+
+
+    "job_experience_left21": "Creative Market",
+    "job_experience_left22":"United Kingdom",
+    "job_experience_left23": "2015 - 2020",
+    "job_experience_right_h2": "GRAPHIC DESIGNER",
+    "job_experience_lorem2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum ducimus earum eos eum laudantium magni necessitatibus neque nesciunt numquam obcaecati quaerat qui, rerum vero! Deleniti neque perspiciatis suscipit.",
+
+    "job_experience_left31": "Marketing Agency",
+    "job_experience_left32":"United Kingdom",
+    "job_experience_left33": "2013 - 2015",
+    "job_experience_right_h3": "MARKETING MANAGER",
+    "job_experience_lorem3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis cum ducimus earum eos eum laudantium magni necessitatibus neque nesciunt numquam obcaecati quaerat qui, rerum vero! Deleniti neque perspiciatis suscipit."
+  },
+
+  "education": {
+    "education_h": "EDUCATION",
+
+    "education_h1": "BACHELOR DEGREE",
+    "education_underh": "Chicago University",
+    "education_year": "2007 - 2010",
+    "education_lorem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum.",
+
+    "education_2h1": "MASTER DEGREE",
+    "education_2underh": "Stanford University",
+    "education_2year": "2011 - 2013",
+    "education_2lorem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum.",
+
+
+
+     "hobbies_h1": "HOBBIES",
+    "hobbies_text1": "Book reading",
+    "hobbies_text2": "Playing Chess",
+    "hobbies_text3":  "Traveling",
+    "hobbies_text4": "Graphic Design",
+    "hobbies_text5":  "Painting"
+  },
+  "reference": {
+    "reference_h": "REFERENCE",
+
+    "refernce_left1": "DARWIN B. MAGANA",
+    "refernce_left2":"2813 Shobe Lane Mancos, CO.",
+    "refernce_left3": "Tel: +1-970-533-3393",
+    "refernce_left4":"Email: www.yourwebsite.com",
+
+    "reference_right1":  "ROBERT J. BELVIN",
+    "reference_right2": "2119 Fairfax DRive Newark, NJ.",
+    "reference_right3":  "Tel: +1-908-987-5103",
+    "reference_right4": "Email: www.yourwebsite.com",
+
+
+    "reference_linkedin_identify": "Professional Identify:",
+    "reference_linkedin": "LINKEDIN",
+    "reference_linkedin_link": "linkedin.com/yournamehere"
+
+  }
+}

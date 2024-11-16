@@ -380,9 +380,9 @@ body {
   margin-left: 10px;
   transition: transform 0.3s ease; // Анімація повороту стрілки
 
-  &.expanded {
-    transform: rotate(180deg); // Поворот стрілки на 180 градусів
-  }
+  //&.expanded {
+  //  transform: rotate(180deg); // Поворот стрілки на 180 градусів
+  //}
 }
 .hobbies_arrow {
   display: inline-block;
@@ -507,9 +507,9 @@ body {
   outline: none;
   transition: transform 0.3s ease;
 }
-.arrow-job.expanded {
-  transform: rotate(180deg); // Поворот стрілки при розгортанні
-}
+//.arrow-job.expanded {
+//  transform: rotate(180deg); // Поворот стрілки при розгортанні
+//}
 
 
 
@@ -523,9 +523,9 @@ body {
   outline: none;
   transition: transform 0.3s ease;
 }
-.arrow.expanded {
-  transform: rotate(180deg); // Поворот стрілки при розгортанні
-}
+//.arrow.expanded {
+//  transform: rotate(180deg); // Поворот стрілки при розгортанні
+//}
 //.arrow-job.expanded + .job_experience_right_text {
 //  max-height: 10px;
 //}

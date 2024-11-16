@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad22661b-309f-4fc7-abc9-a445087bd6bf" name="Changes" comment="good 4 lab (HTML+SCSS+JS with animation)" />
+    <list default="true" id="ad22661b-309f-4fc7-abc9-a445087bd6bf" name="Changes" comment="good 4 lab (HTML+SCSS+JS with animation)">
+      <change afterPath="$PROJECT_DIR$/my-project/app/src/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/app/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/data" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/app/js/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/dist/header_and_subheader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/dist/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/dist/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/dist/main_education.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/dist/main_job_experience.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/dist/main_reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/dist/main_skills.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,8 +66,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.script.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "54959c8e",
+    "git-widget-placeholder": "496e5e5c",
     "last_opened_file_path": "C:/Users/baliu/OneDrive/Рабочий стол/all/LP NU (II)/web розробка (лаби)/pm_22_01/my-project/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,11 +88,11 @@
       <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist\img" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\app\src\data" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\app\src" />
       <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\app" />
+      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist\img" />
       <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist\html" />
-      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\dist" />
-      <recent name="C:\Users\baliu\OneDrive\Рабочий стол\all\LP NU (II)\web розробка (лаби)\pm_22_01\my-project\app\html" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -100,7 +119,8 @@
       <workItem from="1730116975879" duration="1349000" />
       <workItem from="1730305758347" duration="242000" />
       <workItem from="1730306371871" duration="267000" />
-      <workItem from="1730969835295" duration="342000" />
+      <workItem from="1730969835295" duration="10282000" />
+      <workItem from="1731417644447" duration="12499000" />
     </task>
     <task id="LOCAL-00001" summary="good first lab + header. work on subheader">
       <option name="closed" value="true" />
@@ -150,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730970077012</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="good 4 lab (HTML+SCSS+JS with animation)">
+      <option name="closed" value="true" />
+      <created>1730970312599</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730970312599</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
