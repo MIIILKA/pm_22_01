@@ -1,6 +1,9 @@
 async function getData() {
     try {
         const response = await fetch('http://localhost:8080/data/data.json', { cache: 'no-store' });
+
+        //http://127.0.0.1:8080/my-project/dist/data/data.json
+        //http://localhost:8080/data/data.json
         if (!response.ok) throw new Error('Помилка при завантаженні даних');
         const data = await response.json();
         renderData(data);

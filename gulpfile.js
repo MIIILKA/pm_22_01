@@ -9,18 +9,10 @@ const file_include = require('gulp-file-include');
 const imagemin = require('gulp-imagemin');
 const copy = require('gulp-copy');
 
-//  "subheader": {
-//    "ha": "CONTACT",
-//      "phone1":"+1-718-310-asfdasfd5588" ,
-//      "phone2": "+1-313-381-8167",
-//      "link" : "www.yourwebsite.com",
-//      "gmail" :"yourinfo@email.com",
-//      "place1":"769 Prudence Street",
-//      "place2":"Linkoln park, MI 48146"
-//  }
 
 // HTML обробка
 function html() {
+    console.log('Processing HTML files...');
     return gulp.src('./my-project/app/*.html', { allowEmpty: true })
         .pipe(file_include({
             prefix: '@@',
@@ -29,6 +21,7 @@ function html() {
         .pipe(gulp.dest("./my-project/dist/"))
         .pipe(browserSync.stream());
 }
+
 
 // Перетворення Sass в CSS, додавання префіксів та мінімізація
 function sassTask() {
@@ -78,12 +71,15 @@ function copyDataJson() {
 // Ініціалізація серверу BrowserSync
 function browserSyncInit(done) {
     browserSync.init({
-        proxy: 'http://localhost:8080', // Порт 8080
-        port: 8080, // Якщо ви хочете, щоб BrowserSync використовував цей порт
-        notify: false
+        server: {
+            baseDir: './my-project/dist/',
+        },
+        port: 3000, // Вкажіть порт 3000, якщо це потрібно
+        notify: false, // Вимкніть повідомлення
     });
     done();
 }
+
 
 // Моніторинг змін у файлах
 function watchFiles() {
